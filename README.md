@@ -6,6 +6,6 @@ In this repository, we provide both the implementation of proposed algorithms an
 
 The experiment results are based on the following data sets:
 1. Adult: UCI Adult Data Set
-2. CRIME: Communities and Crime Data Set
-3. LSAC: LSAC National Longitudinal Bar Passage Study data set
-4. Correctional Offender Management Profiling for Alternative Sanctions
+2. COMPAS: Correctional Offender Management Profiling for Alternative Sanctions
+3. CRIME: Communities and Crime Data Set
+4. LSAC: LSAC National Longitudinal Bar Passage Study data set
