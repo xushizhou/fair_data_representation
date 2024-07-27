@@ -4,13 +4,21 @@ In this repository, we provide both the implementation of proposed algorithms an
 
 "Fair Data Representation for Machine Learning at Pareto Frontier" [[1]](#1) by Shizhou Xu and Thomas Strohmer.
 
+## Goal:
+
+In a nutshell, the project aims to provide a mathematical framework for how to provably remove the sensitive information contained in some feature variables directly from data.
+
+## Datasets we tested:
+
 The experiment results are based on the following data sets:
 1. Adult: UCI Adult Data Set
 2. COMPAS: Correctional Offender Management Profiling for Alternative Sanctions
 3. CRIME: Communities and Crime Data Set
 4. LSAC: LSAC National Longitudinal Bar Passage Study data set
 
-To derive the fair representation, we design the following ones based on the theoretical results in the paper:
+## Algorithm design for tabular data:
+
+To derive the fair synthetic tabular data, we design the following ones based on the theoretical results in the paper:
 
 For idependnet variable $X$, algorithm 1 outputs the pseudo-barycenter.
 For dependnet variable $Y$, algorithm 2 outputs the conditional pseudo-barycenter.
@@ -67,7 +75,6 @@ def PseudoBarycenter(data, sensitive, threshhold):
 ```
 
 If you have questions, segguestions, or want to discuss more details, please contact me via shzxu(at)ucdavis(dot)edu
-
 
 ## References
 ```latex
