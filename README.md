@@ -6,7 +6,7 @@ In this repository, we provide both the implementation of proposed algorithms an
 
 ## Goal:
 
-In a nutshell, the project aims to provide a mathematically rigorous framework for how to provably remove the sensitive information contained in some feature variables directly from data at the lowest possible utility cost.
+In a nutshell, the project aims to provide a mathematical framework for how to (provably) remove the sensitive information contained in some feature variables directly from data at the (provably) lowest possible utility cost.
 
 ## Datasets we tested:
 
