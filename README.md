@@ -6,7 +6,7 @@ In this repository, we provide both the implementation of proposed algorithms an
 
 ## Goal:
 
-In a nutshell, the project aims to provide a mathematical framework for how to provably remove the sensitive information contained in some feature variables directly from data.
+In a nutshell, the project aims to provide a mathematically rigorous framework for how to provably remove the sensitive information contained in some feature variables directly from data at the lowest possible utility cost.
 
 ## Datasets we tested:
 
@@ -24,6 +24,8 @@ For idependnet variable $X$, algorithm 1 outputs the pseudo-barycenter.
 For dependnet variable $Y$, algorithm 2 outputs the conditional pseudo-barycenter.
 
 ![algorithm](https://github.com/user-attachments/assets/025cdafe-ab7b-422b-a3b0-3714472ccc24)
+
+## Implementation in Python:
 
 The following is a Python implementation of the Pseudo-barycenter function, which takes in
 
